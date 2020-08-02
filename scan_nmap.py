@@ -17,9 +17,9 @@ while x==False:
         print('Something went wrong..!')
 
 user_input=input(""" \n ScanType :
-                     a)SYN ACK Scan
+                     a)TCP SCAN ( SYN )
                      b)UDP Scan
-                     c)Comprehensive Scan\n""")
+                     c)TCP Comprehensive Scan\n""")
 
 
 print("You have chose: ", user_input)
